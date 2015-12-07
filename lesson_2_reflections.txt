@@ -16,9 +16,11 @@ organized? How would branches help?
 	When you want to develop a parallel version of an app with differenc functionality, you create a branch from where the code changes. Branches keeps the original app and adds other versions.
 
 How do the diagrams help you visualize the branch structure?
+	It shows where branches split and which commits are unreachable
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	Add different functionality to the same application.  It is displayed as such to indicate which commits was included by which branch.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
